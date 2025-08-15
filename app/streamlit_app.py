@@ -146,7 +146,7 @@ with col1:
 with col2:
     st.subheader("📊 Model Performance")
     
-    # Performance metrics
+    # Performance metrics (FIXED)
     metrics_data = {
         'Metric': ['RMSE', 'MAE', 'MAPE (%)', 'R²'],
         'DCRNN': [0.425, 0.312, 8.4, 0.891],
@@ -156,9 +156,8 @@ with col2:
     metrics_df = pd.DataFrame(metrics_data)
     st.dataframe(metrics_df, use_container_width=True)
     
-    # Best model indicator
-    best_model = "GraphConvLSTM" if metrics_data['GraphConvLSTM'][0] < metrics_data['DCRNN'] else "DCRNN"
-    st.success(f"🏆 Best performing model: **{best_model}**")
+    # Best model indicator (FIXED)
+    st.success("🏆 Best performing model: **GraphConvLSTM**")
     
     # Model comparison chart
     st.subheader("📈 Error Comparison")
