@@ -47,7 +47,7 @@ text
 
 ### Installation
 Clone the repository
-git clone https://github.com/your-username/bangladesh-river-flood-gnn.git
+git clone https://github.com/nymwilldoit/bangladesh-river-flood-gnn.git
 cd bangladesh-river-flood-gnn
 
 Install dependencies
