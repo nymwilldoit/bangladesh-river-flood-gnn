@@ -4,3 +4,6 @@ numpy
 plotly
 requests         # For API calls
 scikit-learn     # For simple ML inference
+geopandas       # For mapping (only if needed)
+folium          # For interactive maps
+networkx        # For graph visualization
