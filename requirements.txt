@@ -4,3 +4,7 @@ numpy==1.26.3
 plotly==5.17.0
 requests==2.31.0
 python-dateutil==2.8.2
+
+# Optional (recommended for performance & visualization)
+pyarrow==15.0.0      # Faster Pandas I/O and Streamlit data handling
+altair==5.2.0        # Extra charting library (Streamlit uses this internally)
