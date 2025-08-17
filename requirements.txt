@@ -5,3 +5,6 @@ plotly
 requests
 python-dateutil
 protobuf
+tzlocal
+pyarrow
+altair
