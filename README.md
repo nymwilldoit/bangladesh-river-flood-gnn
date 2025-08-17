@@ -170,7 +170,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 For questions about this research project, please open an issue on GitHub.
-
+or mail: s2211056112@ru.ac.bd
 ---
-**Built with ❤️ for Bangladesh flood forecasting research**  
+**Built with ❤️ for Bangladesh flood forecasting research by Nayeemul Islam Nayeem**  
 *Powered by PyTorch Geometric • Designed for real-world impact*
